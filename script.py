@@ -9,7 +9,6 @@ result = sys.argv[3]
 
 print('Dad\'s wager: ' + dad_wager)
 print('Ben\'s wager: ' + ben_wager)
-print('The winner was: ' + result)
 
 pot = int(dad_wager) + int(ben_wager)
 dad = 0
@@ -43,7 +42,8 @@ print('Dad had: ' + str(dad))
 print('Ben had: ' + str(ben))
 print('Pot was: ' + str(pot))
 
-print('~~~~~~~~~~~~~~~~~\n')
+print('\n~~~~~~~~~~~~~~~~~\n')
+print('The winner was: ' + result)
 print('Dad now has: ' + str(new_dad))
 print('Ben now has: ' + str(new_ben))
 
